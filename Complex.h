@@ -6,16 +6,16 @@ using namespace std;
 class Complex
 {
 	public:
-		Complex(double real, double imag);
-		Complex add(Complex Outer);
-		Complex multiply(Complex Outer);
-		Complex divide(Complex Outer);
-		Complex conjugate();
-		void print();
+		Complex(double real, double imag);//constructor
+		Complex add(Complex Outer);//add function
+		Complex multiply(Complex Outer);//multiply function
+		Complex divide(Complex Outer);//divide function
+		Complex conjugate();//conjugate function
+		void print();//print function
 
 	private:
-		double real;
-		double imag;
+		double real;//this->real
+		double imag;//this->imag
 };
 
 #endif
